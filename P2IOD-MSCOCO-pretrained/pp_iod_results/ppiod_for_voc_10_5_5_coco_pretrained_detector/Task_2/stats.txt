@@ -1,0 +1,165 @@
+Current Task (mAP@C): 2
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.6153
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.8265
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.6812
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.2220
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.4174
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.6946
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.5143
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.7793
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.8182
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.3611
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.6637
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.8828
+cat id 0 in this task:  mAP: 0.453 mAP_50: 0.601 mAP_75: 0.507 mAP_s: 0.0 mAP_m: 0.13 mAP_l: 0.525
+cat id 1 in this task:  mAP: 0.724 mAP_50: 0.897 mAP_75: 0.792 mAP_s: 0.146 mAP_m: 0.56 mAP_l: 0.761
+cat id 2 in this task:  mAP: 0.673 mAP_50: 0.896 mAP_75: 0.747 mAP_s: 0.433 mAP_m: 0.462 mAP_l: 0.732
+cat id 3 in this task:  mAP: 0.601 mAP_50: 0.843 mAP_75: 0.659 mAP_s: 0.207 mAP_m: 0.388 mAP_l: 0.709
+cat id 4 in this task:  mAP: 0.625 mAP_50: 0.896 mAP_75: 0.7 mAP_s: 0.324 mAP_m: 0.547 mAP_l: 0.746
+Current Task (mAP@C): 2
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.6382
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.8516
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.7100
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.2279
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.4375
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.7189
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.5235
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.7836
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.8221
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.3997
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.6708
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.8850
+cat id 0 in this task:  mAP: 0.516 mAP_50: 0.664 mAP_75: 0.573 mAP_s: 0.0 mAP_m: 0.156 mAP_l: 0.593
+cat id 1 in this task:  mAP: 0.731 mAP_50: 0.901 mAP_75: 0.806 mAP_s: 0.135 mAP_m: 0.56 mAP_l: 0.771
+cat id 2 in this task:  mAP: 0.703 mAP_50: 0.925 mAP_75: 0.799 mAP_s: 0.468 mAP_m: 0.505 mAP_l: 0.758
+cat id 3 in this task:  mAP: 0.614 mAP_50: 0.872 mAP_75: 0.672 mAP_s: 0.209 mAP_m: 0.418 mAP_l: 0.722
+cat id 4 in this task:  mAP: 0.627 mAP_50: 0.896 mAP_75: 0.701 mAP_s: 0.327 mAP_m: 0.548 mAP_l: 0.751
+Current Task (mAP@C): 2
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.6336
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.8466
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.7028
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.2307
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.4351
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.7153
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.5245
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.7834
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.8214
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.3988
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.6680
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.8843
+cat id 0 in this task:  mAP: 0.497 mAP_50: 0.629 mAP_75: 0.555 mAP_s: 0.0 mAP_m: 0.155 mAP_l: 0.573
+cat id 1 in this task:  mAP: 0.729 mAP_50: 0.902 mAP_75: 0.803 mAP_s: 0.128 mAP_m: 0.568 mAP_l: 0.768
+cat id 2 in this task:  mAP: 0.702 mAP_50: 0.928 mAP_75: 0.788 mAP_s: 0.474 mAP_m: 0.487 mAP_l: 0.76
+cat id 3 in this task:  mAP: 0.614 mAP_50: 0.879 mAP_75: 0.669 mAP_s: 0.223 mAP_m: 0.42 mAP_l: 0.725
+cat id 4 in this task:  mAP: 0.626 mAP_50: 0.896 mAP_75: 0.698 mAP_s: 0.329 mAP_m: 0.546 mAP_l: 0.751
+Current Task (mAP@C): 2
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.6309
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.8449
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.6995
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.2278
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.4351
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.7140
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.5234
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.7833
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.8210
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.3997
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.6667
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.8843
+cat id 0 in this task:  mAP: 0.493 mAP_50: 0.621 mAP_75: 0.547 mAP_s: 0.0 mAP_m: 0.147 mAP_l: 0.569
+cat id 1 in this task:  mAP: 0.728 mAP_50: 0.902 mAP_75: 0.805 mAP_s: 0.125 mAP_m: 0.573 mAP_l: 0.767
+cat id 2 in this task:  mAP: 0.701 mAP_50: 0.927 mAP_75: 0.788 mAP_s: 0.464 mAP_m: 0.488 mAP_l: 0.762
+cat id 3 in this task:  mAP: 0.611 mAP_50: 0.879 mAP_75: 0.662 mAP_s: 0.225 mAP_m: 0.424 mAP_l: 0.722
+cat id 4 in this task:  mAP: 0.623 mAP_50: 0.895 mAP_75: 0.695 mAP_s: 0.325 mAP_m: 0.545 mAP_l: 0.75
+Previous Tasks (mAP@P): 01
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.5677
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.8136
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.6437
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.2230
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.5061
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.6852
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.4100
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.6984
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.7436
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.3717
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.6812
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.8530
+cat id 0 in this task:  mAP: 0.637 mAP_50: 0.859 mAP_75: 0.736 mAP_s: 0.426 mAP_m: 0.574 mAP_l: 0.734
+cat id 1 in this task:  mAP: 0.569 mAP_50: 0.834 mAP_75: 0.645 mAP_s: 0.148 mAP_m: 0.44 mAP_l: 0.688
+cat id 2 in this task:  mAP: 0.571 mAP_50: 0.818 mAP_75: 0.642 mAP_s: 0.244 mAP_m: 0.556 mAP_l: 0.704
+cat id 3 in this task:  mAP: 0.367 mAP_50: 0.63 mAP_75: 0.367 mAP_s: 0.206 mAP_m: 0.353 mAP_l: 0.541
+cat id 4 in this task:  mAP: 0.484 mAP_50: 0.715 mAP_75: 0.549 mAP_s: 0.223 mAP_m: 0.524 mAP_l: 0.694
+cat id 5 in this task:  mAP: 0.689 mAP_50: 0.887 mAP_75: 0.795 mAP_s: 0.157 mAP_m: 0.472 mAP_l: 0.785
+cat id 6 in this task:  mAP: 0.57 mAP_50: 0.887 mAP_75: 0.662 mAP_s: 0.328 mAP_m: 0.527 mAP_l: 0.738
+cat id 7 in this task:  mAP: 0.734 mAP_50: 0.916 mAP_75: 0.823 mAP_s: 0.0 mAP_m: 0.539 mAP_l: 0.77
+cat id 8 in this task:  mAP: 0.421 mAP_50: 0.678 mAP_75: 0.463 mAP_s: 0.113 mAP_m: 0.416 mAP_l: 0.495
+cat id 9 in this task:  mAP: 0.635 mAP_50: 0.91 mAP_75: 0.755 mAP_s: 0.385 mAP_m: 0.659 mAP_l: 0.702
+Having fusion prompt mlp
+Current Task (mAP@C): 2
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.6293
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.8503
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.6956
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.2240
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.4339
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.7119
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.5205
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.7782
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.8172
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.3938
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.6670
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.8798
+cat id 0 in this task:  mAP: 0.498 mAP_50: 0.65 mAP_75: 0.552 mAP_s: 0.0 mAP_m: 0.142 mAP_l: 0.572
+cat id 1 in this task:  mAP: 0.727 mAP_50: 0.901 mAP_75: 0.793 mAP_s: 0.117 mAP_m: 0.558 mAP_l: 0.768
+cat id 2 in this task:  mAP: 0.703 mAP_50: 0.935 mAP_75: 0.798 mAP_s: 0.48 mAP_m: 0.507 mAP_l: 0.763
+cat id 3 in this task:  mAP: 0.613 mAP_50: 0.884 mAP_75: 0.659 mAP_s: 0.221 mAP_m: 0.425 mAP_l: 0.723
+cat id 4 in this task:  mAP: 0.607 mAP_50: 0.882 mAP_75: 0.676 mAP_s: 0.301 mAP_m: 0.536 mAP_l: 0.734
+Previous Tasks (mAP@P): 01
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.5803
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.8318
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.6591
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.2432
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.5144
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.6940
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.4119
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.7058
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.7596
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.3965
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.6988
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.8678
+cat id 0 in this task:  mAP: 0.638 mAP_50: 0.856 mAP_75: 0.734 mAP_s: 0.461 mAP_m: 0.582 mAP_l: 0.733
+cat id 1 in this task:  mAP: 0.581 mAP_50: 0.846 mAP_75: 0.666 mAP_s: 0.158 mAP_m: 0.442 mAP_l: 0.699
+cat id 2 in this task:  mAP: 0.587 mAP_50: 0.846 mAP_75: 0.66 mAP_s: 0.253 mAP_m: 0.573 mAP_l: 0.706
+cat id 3 in this task:  mAP: 0.392 mAP_50: 0.671 mAP_75: 0.398 mAP_s: 0.222 mAP_m: 0.372 mAP_l: 0.571
+cat id 4 in this task:  mAP: 0.496 mAP_50: 0.739 mAP_75: 0.547 mAP_s: 0.229 mAP_m: 0.531 mAP_l: 0.707
+cat id 5 in this task:  mAP: 0.7 mAP_50: 0.903 mAP_75: 0.806 mAP_s: 0.229 mAP_m: 0.474 mAP_l: 0.792
+cat id 6 in this task:  mAP: 0.581 mAP_50: 0.9 mAP_75: 0.679 mAP_s: 0.347 mAP_m: 0.529 mAP_l: 0.743
+cat id 7 in this task:  mAP: 0.741 mAP_50: 0.926 mAP_75: 0.842 mAP_s: 0.0 mAP_m: 0.54 mAP_l: 0.773
+cat id 8 in this task:  mAP: 0.44 mAP_50: 0.701 mAP_75: 0.489 mAP_s: 0.136 mAP_m: 0.431 mAP_l: 0.518
+cat id 9 in this task:  mAP: 0.647 mAP_50: 0.93 mAP_75: 0.771 mAP_s: 0.398 mAP_m: 0.67 mAP_l: 0.7
+All seen Tasks (mAP@A): 12
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.5837
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.8219
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.6561
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.2283
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.4765
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.6870
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.4482
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.7295
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.7791
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.3983
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.6876
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.8722
+cat id 0 in this task:  mAP: 0.635 mAP_50: 0.854 mAP_75: 0.733 mAP_s: 0.445 mAP_m: 0.576 mAP_l: 0.73
+cat id 1 in this task:  mAP: 0.57 mAP_50: 0.837 mAP_75: 0.648 mAP_s: 0.14 mAP_m: 0.428 mAP_l: 0.694
+cat id 2 in this task:  mAP: 0.569 mAP_50: 0.823 mAP_75: 0.637 mAP_s: 0.238 mAP_m: 0.547 mAP_l: 0.699
+cat id 3 in this task:  mAP: 0.384 mAP_50: 0.661 mAP_75: 0.39 mAP_s: 0.211 mAP_m: 0.371 mAP_l: 0.558
+cat id 4 in this task:  mAP: 0.474 mAP_50: 0.705 mAP_75: 0.528 mAP_s: 0.207 mAP_m: 0.509 mAP_l: 0.69
+cat id 5 in this task:  mAP: 0.696 mAP_50: 0.897 mAP_75: 0.801 mAP_s: 0.228 mAP_m: 0.47 mAP_l: 0.787
+cat id 6 in this task:  mAP: 0.576 mAP_50: 0.893 mAP_75: 0.669 mAP_s: 0.341 mAP_m: 0.525 mAP_l: 0.738
+cat id 7 in this task:  mAP: 0.721 mAP_50: 0.905 mAP_75: 0.821 mAP_s: 0.0 mAP_m: 0.512 mAP_l: 0.755
+cat id 8 in this task:  mAP: 0.426 mAP_50: 0.678 mAP_75: 0.476 mAP_s: 0.142 mAP_m: 0.421 mAP_l: 0.495
+cat id 9 in this task:  mAP: 0.627 mAP_50: 0.906 mAP_75: 0.75 mAP_s: 0.394 mAP_m: 0.658 mAP_l: 0.668
+cat id 10 in this task:  mAP: 0.476 mAP_50: 0.62 mAP_75: 0.532 mAP_s: 0.0 mAP_m: 0.128 mAP_l: 0.548
+cat id 11 in this task:  mAP: 0.712 mAP_50: 0.888 mAP_75: 0.773 mAP_s: 0.115 mAP_m: 0.55 mAP_l: 0.753
+cat id 12 in this task:  mAP: 0.69 mAP_50: 0.923 mAP_75: 0.779 mAP_s: 0.476 mAP_m: 0.501 mAP_l: 0.747
+cat id 13 in this task:  mAP: 0.602 mAP_50: 0.869 mAP_75: 0.64 mAP_s: 0.215 mAP_m: 0.42 mAP_l: 0.711
+cat id 14 in this task:  mAP: 0.599 mAP_50: 0.87 mAP_75: 0.666 mAP_s: 0.275 mAP_m: 0.531 mAP_l: 0.731
