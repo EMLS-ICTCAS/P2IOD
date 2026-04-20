@@ -19,6 +19,8 @@ class CoDINOHead(CoDeformDETRHead):
                  *args,
                  num_query=900,
                  previously_seen_classes=0,
+                 use_pesudo_label=True,
+                 use_sparse_prompt=True,
                  dn_cfg=None,
                  transformer=None,
                  **kwargs):
@@ -38,6 +40,8 @@ class CoDINOHead(CoDeformDETRHead):
         self._init_layers()
         self.init_denoising(dn_cfg)
         self.previously_seen_classes=previously_seen_classes
+        self.use_pesudo_label = use_pesudo_label
+        self.use_sparse_prompt = use_sparse_prompt
     
 
     def _init_layers(self):
@@ -119,8 +123,8 @@ class CoDINOHead(CoDeformDETRHead):
         # x是多尺度特征图[B,C,W,H]x5
         outputs_classes, outputs_coords, topk_score, topk_anchor, enc_outs, outputs_classes_pretrain, outputs_coords_pretrain = self(x, img_metas, dn_label_query, dn_bbox_query, attn_mask,train=True)
         outs = (outputs_classes, outputs_coords, topk_score, topk_anchor, enc_outs)
-        pesudo_label=True
-        if pesudo_label:
+
+        if self.use_pesudo_label:
             outs_pretrain = (outputs_classes_pretrain, outputs_coords_pretrain, topk_score, topk_anchor, enc_outs)# topk_score, topk_anchor, enc_outs在get_bboxes里用不到
             with torch.no_grad():
                 # bboxes_pretrain中有5个维度，前4个是bbox的x1y1x2y2像素坐标，后一个是score, labels_pretrain有一个维度，是类别
@@ -131,13 +135,12 @@ class CoDINOHead(CoDeformDETRHead):
         else:
             loss_inputs = outs + (gt_bboxes, gt_labels, img_metas, dn_meta)
 
-        if pesudo_label:
+        if self.use_pesudo_label:
             losses = self.loss(*loss_inputs, gt_bboxes_list_with_pesudo_label=gt_bboxes_with_pesudo_label, gt_labels_list_with_pesudo_label=gt_labels_with_pesudo_label, gt_bboxes_ignore=gt_bboxes_ignore)
         else:
             losses = self.loss(*loss_inputs, gt_bboxes_ignore=gt_bboxes_ignore)
 
-        sparse_prompt=True
-        if sparse_prompt:
+        if self.use_sparse_prompt:
             loss_prompts_l1_norm = self.transformer.prompts.l1_norm_losses
             losses['loss_prompts_l1_norm'] = loss_prompts_l1_norm
 
