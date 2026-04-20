@@ -95,38 +95,38 @@ PP-IOD-objects365-pretrained/
 We provide training code for both single-step and multi-step scenarios.
 ```bash
 # train voc in 10+10 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_voc_10_10_setting.sh
+bash tools/train_objects365_pretrained_incre_voc_10_10_setting.sh
 
 # train voc in 15+5 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_voc_15_5_setting.sh
+bash tools/train_objects365_pretrained_incre_voc_15_5_setting.sh
 
 # train voc in 19+1 setting with objects365 pretrained model
 # It is worth noting that since the second task contains only one category and has very limited data, Detector may suffer from overfitting during training. Therefore, compared to other settings, we additionally adjusted the Quality Focal Loss parameters (beta=3.0) of the detector to help mitigate the overfitting issue.
-bash train_objects365_pretrained_incre_voc_19_1_setting.sh
+bash tools/train_objects365_pretrained_incre_voc_19_1_setting.sh
 
 # train voc in 10+5+5 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_voc_10_5_5_setting.sh
+bash tools/train_objects365_pretrained_incre_voc_10_5_5_setting.sh
 
 # train voc in 5+5+5+5 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_voc_5_5_5_5_setting_train.sh
+bash tools/train_objects365_pretrained_incre_voc_5_5_5_5_setting_train.sh
 
 # train coco in 40+40 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_coco_40_40_setting.sh
+bash tools/train_objects365_pretrained_incre_coco_40_40_setting.sh
 
 # train coco in 50+30 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_coco_50_30_setting.sh
+bash tools/train_objects365_pretrained_incre_coco_50_30_setting.sh
 
 # train coco in 60+20 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_coco_60_20_setting.sh
+bash tools/train_objects365_pretrained_incre_coco_60_20_setting.sh
 
 # train coco in 70+10 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_coco_70_10_setting.sh
+bash tools/train_objects365_pretrained_incre_coco_70_10_setting.sh
 
 # train coco in 40+20+20 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_coco_40_20_20_setting.sh
+bash tools/train_objects365_pretrained_incre_coco_40_20_20_setting.sh
 
 # train coco in 40+10+10+10+10 setting with objects365 pretrained model
-bash train_objects365_pretrained_incre_coco_40_10_10_10_10_setting.sh
+bash tools/train_objects365_pretrained_incre_coco_40_10_10_10_10_setting.sh
 
 
 ```
