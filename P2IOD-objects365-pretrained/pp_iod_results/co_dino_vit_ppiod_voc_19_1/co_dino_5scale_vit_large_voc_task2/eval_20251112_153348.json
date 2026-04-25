@@ -1,0 +1,1 @@
+{"config": "results/co_dino_vit_ppiod_voc_19_1/co_dino_5scale_vit_large_voc_task2/co_dino_5scale_vit_large_voc_task2.py", "metric": {"bbox_mAP": 0.738, "bbox_mAP_50": 0.891, "bbox_mAP_75": 0.823, "bbox_mAP_s": 0.447, "bbox_mAP_m": 0.618, "bbox_mAP_l": 0.822, "bbox_mAP_copypaste": "0.738 0.891 0.823 0.447 0.618 0.822"}}
